@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto";
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    top: 0%;
+    position: fixed;
+    font-family: "Roboto";
+    margin: 0px;
+    width: 100%;
+    padding: 12px 16px;
+    background-color: rgb(26, 167, 236);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+ul {
+    font-family: "Roboto";
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    margin: 10px;
+}
+
+li > a{
+    text-decoration: none;
+    
+}
+
+#loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 30%;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-top: 80px;
+    justify-content: space-evenly;    
+}
+
+.movie-holder {
+    top: 20px;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: max-content;
+    width: max-content;
+    
+}
+
+.movie-img-wrapper {
+    background-size: cover;
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.movie-link {
+    display: flex;
+    text-align: center;
+
+}
+
+#booker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.available{
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.unavailable {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin: 5px 5px;
+    height: 70px;
+    width: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid white;
+    
+}
+
+#booker-grid-holder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid-div-left {
+    margin: 30px 20px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+}
+
+#grid-div-right {
+    margin: 30px 20px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px 70px;
+}
+
+.booking-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px 1px;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#book-ticket-btn {
+    margin: 50px;
+    height: 50px;
+    width: 100px;
+}
+
+.d-none{
+    display: none;
+}
+.v-none{
+    visibility: hidden;
+    
+}
+
+.booker {
+    background-color: #67b68f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 250px;
+} 
+
+form {
+    display: flex;
+    flex-direction: column;
+}
